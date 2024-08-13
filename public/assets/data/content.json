@@ -1,0 +1,65 @@
+{   
+    "userName":[
+        {
+            "name": "Lana Vo"
+        }        
+    ],
+    "fourNavs":[
+        {
+            "title":"Unresolved",
+            "number":"97"
+        },
+        {
+            "title":"Overdue",
+            "number":"20"
+        },
+        {
+            "title":"Open",
+            "number":"4653"
+        },
+        {
+            "title":"On hold",
+            "number":"334"
+        }
+    ],
+    "rightCards":[
+        {
+            "titleright": "Resolved",
+            "numberright": "6516"
+        },
+        {
+            "titleright": "Received",
+            "numberright": "8841"
+        },
+        {
+            "titleright": "Avg. first response time",
+            "numberright": "963516"
+        },
+        {
+            "titleright": "Avg. response time",
+            "numberright": "04:15:00"
+        },
+        {
+            "titleright": "Resolution",
+            "numberright": "150%"
+        }
+    ],
+    "twoCards": [
+        {
+            "line": "Waiting on Feature Request",
+            "data": "54943516"
+        },
+        {
+            "line": "Awaiting Customer Response",
+            "data": "15555"
+        },
+        {
+            "line": "Awaiting Developer Fix",
+            "data": "9856"
+        },
+        {
+            "line": "Pending",
+            "data": "8"
+        }
+    ]
+} 

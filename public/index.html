@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INM320 Booostrap</title>
@@ -73,7 +73,7 @@
                                 </svg>
                             </div>                        
                             <div class="col-4 pt-3 name">
-                                <p>Jones Ferdinand</p>
+                                <p class="username">Jones Ferdinand</p>
                             </div>
                             <div class="col-2">
                                 <img src="assets/images/user.png" alt="">
@@ -82,17 +82,24 @@
                     </div>
                 </div>
                 <!-- 4 BUTTONS -->
-                <div class="row container-fluid d-flex justify-content-between mx-0  p-0"> 
-                    <div class="col-lg fourbuttons me-md-2">Unresolved 
+                <div class="fourbuttonbigdiv row container-fluid d-flex justify-content-between mx-0  p-0"> 
+                    <div class="col-lg fourbuttons me-md-2">
+                        <div class="title2">Unresolved</div>
                         <div class="number">60</div> 
                     </div>
-                    <div class="col-lg fourbuttons mx-md-2">Overdue 
+
+                    <div class="col-lg fourbuttons mx-md-2">
+                        <div class="title2">Overdue </div>
                         <div class="number">16</div>
                     </div>
-                    <div class="col-lg fourbuttons mx-md-2">Open 
+
+                    <div class="col-lg fourbuttons mx-md-2">
+                        <div class="title2">Open </div>
                         <div class="number">43</div>
                     </div>
-                    <div class="col-lg fourbuttons ms-md-2">On hold 
+
+                    <div class="col-lg fourbuttons ms-md-2">
+                        <div class="title2">On hold </div>
                         <div class="number">64</div>
                     </div>
                 </div>
@@ -108,24 +115,24 @@
                     <div class="col-md-4 data">
                         <div class="row-1  datarow">
                             <div class="col">
-                                <h1>Resolved</h1>
-                                <h2>449</h2>
+                                <h1 class="titleright">Resolved</h1>
+                                <h2 class="numberright">449</h2>
                             </div>
                             <div class="col">
-                                <h1>Received</h1>
-                                <h2>426</h2>
+                                <h1 class="titleright">Received</h1>
+                                <h2 class="numberright">426</h2>
                             </div>
                             <div class="col">
-                                <h1>Average first response time</h1>
-                                <h2>33m</h2>
+                                <h1 class="titleright">Average first response time</h1>
+                                <h2 class="numberright">33m</h2>
                             </div>
                             <div class="col">
-                                <h1>Average response time</h1>
-                                <h2>3h 8m</h2>
+                                <h1 class="titleright">Average response time</h1>
+                                <h2 class="numberright">3h 8m</h2>
                             </div>
                             <div class="col  nolinebot">
-                                <h1>Resolution within SLA</h1>
-                                <h2>94%</h2>
+                                <h1 class="titleright">Resolution within SLA</h1>
+                                <h2 class="numberright">94%</h2>
                             </div>
                         </div>
                     </div>
@@ -147,19 +154,19 @@
                         
                         <div class="row-1 leftlines">
                             <div class="d-flex justify-content-between line1">
-                                <div>Waiting on Feature Request</div>
+                                <div class="title3">Waiting on Feature Request</div>
                                 <div class="numb">4238</div>
                             </div>
                             <div class="d-flex justify-content-between line1">
-                                <div>Awaiting Customer Response</div>
+                                <div class="title3">Awaiting Customer Response</div>
                                 <div class="numb">1005</div>
                             </div>
                             <div class="d-flex justify-content-between line1">
-                                <div>Awaiting Developer Fix</div>
+                                <div class="title3">Awaiting Developer Fix</div>
                                 <div class="numb">914</div>
                             </div>
                             <div class="d-flex justify-content-between line1 noline">
-                                <div>Pending</div>
+                                <div class="title3">Pending</div>
                                 <div class="numb">281</div>
                             </div>
                         </div>
@@ -224,6 +231,9 @@
     </div>
 
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/assets/js/main.js"></script>
+
 </body>
 </html>
